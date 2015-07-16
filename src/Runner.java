@@ -7,15 +7,15 @@ public class Runner implements Runnable {
 
     public static void releaseAll() {
         String name = Thread.currentThread().getName();
-        System.out.println(name + " about to call releaseAll()");
+        System.out.println(name + " about to call static Runner method releaseAll()");
         glue.unstickAll();
     }
 
     public void run() {
         String name = Thread.currentThread().getName();
-        System.out.println(name + " begun run()");
+        System.out.println(name + " Runner begun run()");
         glue.stick();
-        System.out.println(name + " finished run()");
+        System.out.println(name + " Runner finished run()");
     }
 
 }
