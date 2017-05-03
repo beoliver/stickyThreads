@@ -1,3 +1,4 @@
+```
 Thread-0 Runner begun run()
 Thread-1 Runner begun run()
 Thread-2 Runner begun run()
@@ -12,3 +13,4 @@ Thread-2 after wait() method of Glue instance
 Thread-2 Runner finished run()
 Thread-0 after wait() method of Glue instance
 Thread-0 Runner finished run()
+```
